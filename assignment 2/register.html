@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: sans-serif;
+            background-image: linear-gradient(#ffffff, #CECECE , #939294);
+        }
+        td{
+            text-align: justify;
+        }
+        a {
+            text-decoration: none;
+            color: rgba(11, 48, 90, 0.979);
+        }
+        a:hover{
+            color: rgba(190, 112, 235, 0.671);
+        }
+        .nav{
+            background-image: linear-gradient( #8DFFFB , #3CCDC8 , #12908B);
+        }
+        .swap img {
+            position: absolute;
+            top:0;
+            left:0;
+            overflow: hidden;
+            width: 160px;
+            height: 168px;
+        }
+        .swap .insta1 {
+            z-index: 9999;
+            transition: opacity 0.35s linear;
+            cursor: pointer;
+        }
+        .swap:hover > .insta1{
+            opacity: 0;
+        }
+    </style>
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                <title>Home </title>
+            </head>
+            <body >
+                <table width="100%" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="168" height="168">
+                            <a href="index.html" class="logo">
+                                <figure class="swap">
+                                    <img src="images/inst.png">
+                                    
+                                </figure>
+                            </a>
+                        </td>
+                        <td>
+                            <img src="images/banner.jpg" width="100%" height="158">
+                        </td>
+                    </tr>
+                    <tr class="nav" height="50px">
+                        <td><a name="#top"></a></td>
+                        <td>
+                            <table width="100%" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="25%">
+                                            <a href="index.html" >Home</a>    
+                                    </td>
+                                    <td width="25%">
+                                            <a href="about.html">About</a>
+                                    </td>
+                                        <td width="25%">
+                                            <a href="download.html" target="_blank">Download</a>   
+                                    </td>
+                                    <td width="25%">
+                                            <a href="register.html" style=" border-bottom: 3px solid rgb(6, 116, 70); padding-bottom: 3px">Register</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                </td>
+            </tr>
+        </table>
+        <div style="font-weight: lighter;">
+            <div>
+                <h2>Create your Account</h2>
+            </div>
+            <div class="row" width="100%">
+                <div class="col-1" >
+                    <h3 align="middle">Account For shopping addict</h3>
+                    <h4 align="middle">Join and connect .</h4>
+                </div>
+                <div class="col-2">
+                    <form action="#" enctype="multipart/form-data" method="POST">
+                        <fieldset style="background-color: rgb(235, 232, 232); border: 1px solid gainsboro">
+                            <label for="name">Name</label><br>
+                            <input type="text" name="fname"  placeholder="First Name" required \>
+                            <input type="text" name="lname"placeholder="Last Name" required \>
+                            <br>
+                            <label for="email">Email</label><br>
+                            <input type="email" width="100%" placeholder="example@gmail.com">
+                            <br>
+                            <label for="psw">Create a Password</label><br>
+                            <input type="password" title="Password must contain at least 8 characters, one upper, one lower and a character." required>
+                            <br>
+                            <label for="confirm">Confirm Password</label><br>
+                            <input type="password">
+                            <br>
+                            <label for="birthday">Birthday</label><br>
+                            <div style="display: flex; ">
+                                <div>
+                                    <input type="number" style="width: 40%" placeholder="Day" title="Day in number" required> 
+                                </div>
+                                <div>
+                                    <select style="margin-left: -65%; width: 120%">
+                                        <option>Month</option>
+                                        <option>January</option>
+                                        <option>February</option>
+                                        <option>March</option>
+                                        <option>April</option>
+                                        <option>May</option>
+                                        <option>June</option>
+                                        <option>July</option>
+                                        <option>August</option>
+                                        <option>September</option>
+                                        <option>October</option>
+                                        <option>November</option>
+                                        <option>December</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <input type="number" placeholder="Year" style="margin-left:-13%" required>
+                                </div>
+                            </div>
+                            <label for="gender">Gender</label><br>
+                            <select required>
+                                <option value="default">I am ..</option>
+                                <option value="M">Male</option>
+                                <option value="F">Female</option>
+                                <option value="other">Others</option>
+                            </select>
+                            <br>
+                            <label>Mobile phone</label><br>
+                            <input type="number" >
+                            <br>
+                            <hr>
+                           <h3>Payment (shipping cost $1)</h3><br>
+                           <table cellspacing=0>
+                            <label for="CN"><b>Card Info</b></label><br>
+                            <tr>
+                            <td>Card Number</td>
+                            <td><input type="text" title="Enter your Card Number" placeholder="xxxx" maxlength=4 name="c1" size=4>-<input type="text" title="Enter your Card Number" placeholder="xxxx" maxlength=4 name="c2" size=4>-<input type="text" title="Enter your Card Number" placeholder="xxxx" maxlength=4 name="c3" size=4>-<input type="text" title="Enter your Card Number" placeholder="xxxx" maxlength=4 name="c4" size=4></td>
+                            </tr>
+                            <tr>
+                                <td>CCV</td>
+                                <td><input type="number" title="Enter CCV" placeholder="xxx" maxlength=3 size=3>
+                                <label for="checkbox"></label>
+                                </td>
+                                </tr>
+                               <tr>
+                                   <td></td><td> <input style="width: 34px" type="checkbox" required>I accept all terms and conditions
+                               </td> 
+                            </tr>
+                            </table>
+                            <input type="submit" style="background-color: rgb(38, 18, 155); width: 80px; float: right; margin-right: 20px" value="Next" name="submit">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer align="center";>
+                Copyright &copy; Blackshop, Powered by Instagram
+        </footer>
+    </body>
+</html>
